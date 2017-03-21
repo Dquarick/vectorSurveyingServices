@@ -77,3 +77,12 @@ footer a {
 	text-align: center;
 	padding-bottom: 10px;
 }
+
+/* ABOUT PAGE */
+#about-content { 
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#about-content h2 {
+	margin-top: 0px;
+}
