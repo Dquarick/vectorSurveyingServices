@@ -11,6 +11,10 @@
 	margin-bottom: 0;
 }
 
+.navbar a{
+	transition: color .3s;
+}
+
 #fold-img-wrapper { 
 	background-color: #ddd;
 }
@@ -78,6 +82,17 @@ footer .row h5 {
 
 footer a {
 	color: #fff;
+	transition: color .3s;
+}
+
+footer a:hover {
+	color: #00aa00;
+	text-decoration: none;
+}
+
+footer a:focus {
+	color: #00aa00;
+	text-decoration: none;
 }
 
 .quick-connect {
