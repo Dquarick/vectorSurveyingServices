@@ -12,6 +12,15 @@
 	margin-bottom: 0;
 }
 
+#nav-logo {
+	margin-top: -15px;
+	transition: opacity .3s;
+}
+
+#nav-logo:hover {
+	opacity: .75;
+}
+
 .navbar li { 
 	transition: background .3s;
 }
