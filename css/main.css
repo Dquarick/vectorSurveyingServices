@@ -1,4 +1,23 @@
+#wrapper { 
+	margin: auto;
+	min-height: calc(100vh - 568px);
+}
+
 .navbar { 
 	border-radius: 0;
-	
+	margin-bottom: 0;
+}
+
+#fold-img { 
+	margin: auto;
+}
+
+footer { 
+	background-color: #ccc;
+	text-align: center;
+}
+
+#copyright { 
+	text-align: center;
+	padding-bottom: 10px;
 }
