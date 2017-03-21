@@ -1,6 +1,8 @@
 #wrapper { 
 	margin: auto;
-	min-height: calc(100vh - 568px);
+	padding: 0;
+	box-shadow: 0 0 15px rgba(0,0,0,.7);
+	min-height: calc(100vh - 281px);
 }
 
 .navbar { 
@@ -10,11 +12,32 @@
 
 #fold-img { 
 	margin: auto;
+	background-color: #aaa;
+}
+
+#fold-img img{
+	display: block;
+	margin: auto;
+}
+
+.copy { 
+	max-width: 960px;
+	padding: 15px;
+	margin: auto;
+}
+
+.row{
+	margin: 0;
 }
 
 footer { 
 	background-color: #ccc;
 	text-align: center;
+	height: 231px;
+}
+
+.quick-contact {
+	margin: 15px;
 }
 
 #copyright { 
