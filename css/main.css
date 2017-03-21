@@ -16,7 +16,11 @@
 
 #fold-img { 
 	position: relative;
-	display: inline-block;
+	max-width: 960px;
+	margin: auto;
+}
+
+#fold-img img {
 	margin: auto;
 }
 
@@ -24,12 +28,13 @@
 	position: absolute;
 	bottom: 20px;
 	left: 50px;
-	width: s00px;
+	width: 210px;
 	height: 70px;
 	background-color: #008800;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700px;
+	text-shadow: 3px 2px 5px rgba(0,0,0,.5);
 	border: none;
 	text-transform: uppercase;
 }
@@ -45,6 +50,7 @@
 }
 
 #main-content h3 { 
+	padding-top: 100px;
 	text-align: center;
 }
 
@@ -59,7 +65,11 @@ footer {
 	height: 231px;
 }
 
-.quick-contact {
+footer a {
+	color: #fff;
+}
+
+.quick-connect {
 	margin: 15px;
 }
 
