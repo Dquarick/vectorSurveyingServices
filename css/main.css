@@ -8,10 +8,19 @@
 
 .navbar { 
 	border-radius: 0;
+	border-bottom: 0;
 	margin-bottom: 0;
 }
 
-.navbar a{
+.navbar li { 
+	transition: background .3s;
+}
+
+.navbar li:hover {
+	background-color: #555;
+}
+
+.navbar a {
 	transition: color .3s;
 }
 
@@ -61,7 +70,7 @@
 	text-align: center;
 }
 
-.row{
+.row {
 	margin: 0;
 }
 
@@ -86,7 +95,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #00aa00;
+	color: #00cc00;
 	text-decoration: none;
 }
 
@@ -168,13 +177,21 @@ footer a:focus {
 /* CONTACT */
 #contact-content {
 	text-align: center;
+	padding-bottom: 40px;
+}
+
+#map-overlay {
+	clear: both;
+	width: 100%;
+	min-height: 380px;
+	position: absolute;
 }
 
 #contact-content .row {
 	padding-top: 20px;
 }
 
-#contact-btn {
+#contact-btn.btn {
 	display: block; 
 	margin: 50px auto 0;
 	width: 190px;
@@ -190,8 +207,9 @@ footer a:focus {
 	transition: background .3s;
 }
 
-#contact-btn:hover { 
+#contact-btn.btn:hover { 
 	background-color: #00aa00;
+	color: #fff;
 }
 
 /* RESOURCES */
@@ -199,4 +217,14 @@ footer a:focus {
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+#resources-content a, #contact-content a {
+	color: #008800;
+	transition: color .3s;
+}
+
+#resources-content a:hover, #contact-content a:hover {
+	text-decoration: none;
+	color: #00cc00;
 }
