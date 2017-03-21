@@ -29,7 +29,7 @@
 	bottom: 20px;
 	left: 50px;
 	width: 210px;
-	height: 70px;
+	height: 60px;
 	background-color: #008800;
 	color: #fff;
 	font-size: 18px;
@@ -140,4 +140,33 @@ footer a {
 
 #services-content h2 {
 	margin-top: 0;
+}
+
+/* CONTACT */
+#contact-content {
+	text-align: center;
+}
+
+#contact-content .row {
+	padding-top: 20px;
+}
+
+#contact-btn {
+	display: block; 
+	margin: 50px auto 0;
+	width: 190px;
+	height: 40px;
+	background-color: #008800;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700px;
+	text-shadow: 3px 2px 5px rgba(0,0,0,.5);
+	border: none;
+	border-radius: 4px;
+	text-transform: uppercase;
+	transition: background .3s;
+}
+
+#contact-btn:hover { 
+	background-color: #00aa00;
 }
