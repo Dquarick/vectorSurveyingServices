@@ -142,6 +142,10 @@ footer a {
 	margin-top: 0;
 }
 
+.img-bordered { 
+	border: solid #ccc 2px;
+}
+
 /* CONTACT */
 #contact-content {
 	text-align: center;
