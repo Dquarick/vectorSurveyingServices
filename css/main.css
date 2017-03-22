@@ -24,6 +24,7 @@
 
 .navbar li { 
 	transition: background .3s;
+	text-shadow: 1px 1px 1px #000;
 }
 
 .navbar li:hover {
@@ -55,18 +56,18 @@
 	left: 50px;
 	width: 210px;
 	height: 60px;
-	background-color: #008800;
+	background-color: #56b64f;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700px;
-	text-shadow: 3px 2px 5px rgba(0,0,0,.5);
-	border: none;
+	text-shadow: 0px -1px 1px #000;
+	border-color: #666; 
 	text-transform: uppercase;
 	transition: background .3s;
 }
 
 #request-btn:hover { 
-	background-color: #00aa00;
+	background-color: #008800;
 }
 
 .copy { 
@@ -160,11 +161,11 @@ footer a:focus {
 #quote-content button { 
 	width: 190px;
 	height: 40px;
-	background-color: #008800;
+	background-color: #56b64f;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700px;
-	text-shadow: 3px 2px 5px rgba(0,0,0,.5);
+	text-shadow: 0px -1px 1px #000;
 	border: none;
 	border-radius: 4px;
 	text-transform: uppercase;
@@ -172,7 +173,7 @@ footer a:focus {
 }
 
 #quote-content button:hover { 
-	background-color: #00aa00;
+	background-color: #008800;
 }
 
 /* ABOUT */
@@ -210,11 +211,11 @@ iframe {
 	margin: 50px auto 0;
 	width: 190px;
 	height: 40px;
-	background-color: #008800;
+	background-color: #56b64f;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700px;
-	text-shadow: 3px 2px 5px rgba(0,0,0,.5);
+	text-shadow: 0px -1px 1px #000;
 	border: none;
 	border-radius: 4px;
 	text-transform: uppercase;
@@ -222,7 +223,7 @@ iframe {
 }
 
 #contact-btn.btn:hover { 
-	background-color: #00aa00;
+	background-color: #008800;
 	color: #fff;
 }
 
