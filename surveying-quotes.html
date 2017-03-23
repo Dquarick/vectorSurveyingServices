@@ -4,8 +4,8 @@
 	<!-- META --> 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Vector Surveying Services | SEO content here...</title>
-	<meta name="description" content="Some more seo stuff here"/>
+	<title> Vector | Free Land Surveying Estimates in Northern Ohio </title>
+	<meta name="description" content="An easy-to-complete form that will instantly request a free price estimate for land surveying services in Northern Ohio."/>
 	<!-- FAVICONS -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
@@ -13,33 +13,39 @@
 	<link rel="manifest" href="favicons/manifest.json">
 	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
-	<!-- LINKS --> 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-	<link href="bootstrap/js/bootstrap.min.js"/> 
+	<!-- CSS/JS --> 
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-	<link href="css/main.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+	<script src="bootstrap/js/bootstrap.min.js"> </script>
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
 	<link href="css/main.css" rel="stylesheet"/>
 </head>
 
 <body>
 	<div id="wrapper" class="container-fluid">
 		<header>
-				<nav class="navbar navbar-inverse">
-				  <div class="container-fluid">
-					<div class="navbar-header">
-					  <a class="navbar-brand" href="index.html"><img id="nav-logo" class="img-responsive" src="imgs/vector-surveying-services-navbar-logo.png"/></a>
-					</div>
-					<ul class="nav navbar-nav">
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				  <a class="navbar-brand" href="index.html"><img id="nav-logo" class="img-responsive" src="imgs/vector-surveying-services-navbar-logo.png"/></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">
 					  <li><a href="index.html">Home</a></li>
 					  <li><a href="surveying-services.html">Services</a></li>
 					  <li class="active"><a href="surveying-quotes.html">Request Quote</a></li>
 					  <li><a href="about-vector-surveying.html">About</a></li>
 					  <li><a href="contact-vector-surveying.html">Contact</a></li>
 					  <li><a href="resources.html">Resources</a></li>
-					</ul>
-				  </div>
-				</nav>
+				  </ul>
+				</div>
+			  </div>
+			</nav>
 		</header>
 		
 		<div id="fold-img-wrapper">
@@ -49,9 +55,9 @@
 		</div>
 		
 		<section id="quote-content" class="copy">
-			<h1> Request a Quote or Leave a Comment </h1>
+			<h1> Request a Free Land Surveying Estimate </h1>
 			<p>
-				We gladly provide a free price estimate for any survey-related work that you may have. Please enter your name, e-mail address, the location of the property (address or county/township/city lot number), and a brief description of the type of survey work you require. If you're not currently in need of professional surveying services then leave us a message. We'd love to hear from you!
+				Vector Surveying Services gladly provides free price estimates for any survey-related work that you may have. Please enter your name, e-mail address, the location of the property (address or lot number), and a brief description of the type of land survey you require. If you're trying to figure out which steps to take, or don't know which kind of survey you may need, then don't hesitate to call us or leave a message and we'll give you the guidance you seek! 
 			</p>
 			
 			<hr/>
@@ -122,8 +128,9 @@
 					
 			<!-- COPYRIGHT -->
 			<div id="copyright">
-				<h5> &copy; 2017 Vector Surveying Services, LLC. - All Rights Reserved. </h5>
+				<h5> &copy; <span id="year"></span> Vector Surveying Services, LLC. - All Rights Reserved. </h5>
 			</div><!-- END COPYRIGHT -->
 		</footer> <!-- END FOOTER -->
+		<script src="js/getYear.js"></script>
 </body>
 </html>

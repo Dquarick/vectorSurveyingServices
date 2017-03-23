@@ -1,4 +1,16 @@
 /* SITE-WIDE */
+::selection {
+	background-color: #56b64f;
+}
+
+body {
+	font-family: "Century Gothic Regular", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Calisto MT", serif;
+}
+
 #wrapper { 
 	margin: auto;
 	padding: 0;
@@ -11,6 +23,10 @@
 	border-bottom: 0;
 	margin-bottom: 0;
 	background: url(../imgs/concrete-wall.jpg) repeat;
+}
+
+.navbar .container-fluid {
+	max-width: 960px;
 }
 
 #nav-logo {
@@ -47,6 +63,10 @@
 
 #fold-img img {
 	margin: auto;
+}
+
+.headline {
+	font-size: 30px;
 }
 
 #request-btn { 
@@ -148,6 +168,10 @@ footer a:focus {
 	color: #ff0000;
 }
 
+#quote-content .form-control:focus {
+	border-color: #00cc00;
+}
+
 #quote-content .form-group { 
 	max-width: 400px;
 }
@@ -193,6 +217,9 @@ footer a:focus {
 
 iframe {
 	display: block;
+	height: 380px;
+	width: 100%;
+	max-width: 960px;
 }
 
 #map-overlay {
@@ -234,12 +261,46 @@ iframe {
 	padding-bottom: 40px;
 }
 
+#resources-content h2 {
+	font-size: 20px;
+}
+
 #resources-content a, #contact-content a {
 	color: #008800;
 	transition: color .3s;
 }
 
+#resources-content a{
+	display: block;
+	margin-bottom: 10px;
+}
+
 #resources-content a:hover, #contact-content a:hover {
 	text-decoration: none;
 	color: #00cc00;
+}
+
+/* MOBILE */
+@media screen and (max-width:767px){
+	/* SITE-WIDE */
+	footer {
+		height: 390px;
+	}
+	
+	abbr[title] {
+		text-decoration: none;
+		border: none;
+	}
+	
+	/*INDEX*/
+	#request-btn.btn {
+		background-color: transparent;
+		border: 3px solid #00cc00;
+	}
+	
+	/* QUOTE */
+	#quote-content button {
+		display: block;
+		margin: auto;
+	}	
 }

@@ -4,8 +4,8 @@
 	<!-- META --> 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Vector Surveying Services | SEO content here...</title>
-	<meta name="description" content="Some more seo stuff here"/>
+	<title>Vector | About Our Origin &amp; Our Ohio Professional Surveyor</title>
+	<meta name="description" content="Information about Vector Surveying Services - A firm owned by Tim Hozalski, P.S. that operates in Northern Ohio &amp; specializes in land surveying."/>
 	<!-- FAVICONS -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
@@ -13,45 +13,51 @@
 	<link rel="manifest" href="favicons/manifest.json">
 	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
-	<!-- LINKS --> 
+	<!-- CSS/JS --> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-	<link href="bootstrap/js/bootstrap.min.js"/> 
+	<script src="bootstrap/js/bootstrap.min.js"/></script>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-	<link href="css/main.css" rel="stylesheet"/>
 	<link href="css/main.css" rel="stylesheet"/>
 </head>
 
 <body>
 	<div id="wrapper" class="container-fluid">
 		<header>
-				<nav class="navbar navbar-inverse">
-				  <div class="container-fluid">
-					<div class="navbar-header">
-					  <a class="navbar-brand" href="index.html"><img id="nav-logo" class="img-responsive" src="imgs/vector-surveying-services-navbar-logo.png"/></a>
-					</div>
-					<ul class="nav navbar-nav">
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				  <a class="navbar-brand" href="index.html"><img id="nav-logo" class="img-responsive" src="imgs/vector-surveying-services-navbar-logo.png"/></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">
 					  <li><a href="index.html">Home</a></li>
 					  <li><a href="surveying-services.html">Services</a></li>
 					  <li><a href="surveying-quotes.html">Request Quote</a></li>
 					  <li class="active"><a href="about-vector-surveying.html">About</a></li>
 					  <li><a href="contact-vector-surveying.html">Contact</a></li>
 					  <li><a href="resources.html">Resources</a></li>
-					</ul>
-				  </div>
-				</nav>
+				  </ul>
+				</div>
+			  </div>
+			</nav>
 		</header>
 		
 		<section id="about-content" class="copy">
 			<div class="row">
 				<div class="col-sm-6">
-					<h2> The Story of Vector Surveying </h2>
+					<h2> The Origin of Vector Surveying </h2>
 					<p>
-					Established in 2015. Vector Surveying was founded on a simple plan. That plan being to take on only the jobs that can be performed inordinately well, and to do those jobs quickly and cost effectively. The land surveying industry is predicated on reputation. The reason for this is because the client or customer may not have the means to judge the quality of the service being provided to them. Instead, the client or customer relies upon the testimony of other customers. We realize this and so we strive to do exceptional work and treat everybody squarely.
+					Vector Surveying Services was founded in 2015 with a simple plan: only take surveying jobs that can be performed in an exacting manner and to do those jobs quickly and cost effectively. We realize that members of the land surveying industry rely on their reputations. Clients may not have the knowledge to judge the quality of the service being provided to them so they depend upon the testimony of other customers. Check out some of our testimonials - We strive to do exceptional work and treat everybody squarely.
 					</p>
 				</div>
 				<div class="col-sm-6">
-					<img class="img-responsive" src="imgs/surveying-camera.JPG"/>
+					<img class="img-responsive" src="imgs/land-surveying-laser.jpg"/>
 				</div>
 			</div>
 			
@@ -62,9 +68,9 @@
 					<img class="img-responsive" src="imgs/tim-holzalski-ohio-professional-surveyor.JPG"/>
 				</div>
 				<div class="col-sm-6">
-					<h2> Tim Hozalski, P.S. </h2>
+					<h2> Tim Hozalski, <abbr title="Professional Surveyor"> P.S.</abbr></h2>
 					<p>
-					Tim Hozalski, owner, received a Bachelor's Degree in Surveying and Mapping from The University of Akron in 2010 and became licensed as an Ohio Professional Surveyor in 2015. He takes great pride in his work and is passionate about all things he does. Tim also operates a crop farm with his brother and dad in Henrietta Twp, OH. On the farm his specialty is metal fabrication. In the winter you will find him riding his snowmobile.
+					Tim Hozalski, the owner of Vector Surveying Services, received a Bachelor's Degree in Surveying and Mapping from The University of Akron in 2010. Five years later Tim became a licensed Ohio Professional Surveyor. He takes great pride in his work and is passionate about all things he does. When he's not surveying, Tim also operates a crop farm with his brother and dad in Henrietta Twp, Ohio. On the farm he specializes in metal fabrication. In the winter you will find him riding his snowmobile.
 					</p>
 				</div>
 			</div>
@@ -114,8 +120,9 @@
 					
 			<!-- COPYRIGHT -->
 			<div id="copyright">
-				<h5> &copy; 2017 Vector Surveying Services, LLC. - All Rights Reserved. </h5>
+				<h5> &copy; <span id="year"></span> Vector Surveying Services, LLC. - All Rights Reserved. </h5>
 			</div><!-- END COPYRIGHT -->
 		</footer> <!-- END FOOTER -->
+		<script src="js/getYear.js"></script>
 </body>
 </html>

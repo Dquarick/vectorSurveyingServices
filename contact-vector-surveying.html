@@ -4,8 +4,8 @@
 	<!-- META --> 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Vector Surveying | Call, Email, Fax, or Request a Quote from Vector Surveying Services </title>
-	<meta name="description" content="Some more seo stuff here"/>
+	<title> Vector | Contact Us or Request a Quote for Surveying Services </title>
+	<meta name="description" content="Phone, E-mail, Fax, &amp; Address information for contacting Vector Surveying Services, LLC. - An Ohio based land surveying firm."/>
 	<!-- FAVICONS -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
@@ -13,39 +13,45 @@
 	<link rel="manifest" href="favicons/manifest.json">
 	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
-	<!-- LINKS --> 
+	<!-- CSS/JS --> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-	<link href="bootstrap/js/bootstrap.min.js"/> 
+	<script src="bootstrap/js/bootstrap.min.js"> </script>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-	<link href="css/main.css" rel="stylesheet"/>
 	<link href="css/main.css" rel="stylesheet"/>
 </head>
 
 <body>
 	<div id="wrapper" class="container-fluid">
 		<header>
-				<nav class="navbar navbar-inverse">
-				  <div class="container-fluid">
-					<div class="navbar-header">
-					  <a class="navbar-brand" href="index.html"><img id="nav-logo" class="img-responsive" src="imgs/vector-surveying-services-navbar-logo.png"/></a>
-					</div>
-					<ul class="nav navbar-nav">
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				  <a class="navbar-brand" href="index.html"><img id="nav-logo" class="img-responsive" src="imgs/vector-surveying-services-navbar-logo.png"/></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">
 					  <li><a href="index.html">Home</a></li>
 					  <li><a href="surveying-services.html">Services</a></li>
 					  <li><a href="surveying-quotes.html">Request Quote</a></li>
 					  <li><a href="about-vector-surveying.html">About</a></li>
 					  <li class="active"><a href="contact-vector-surveying.html">Contact</a></li>
 					  <li><a href="resources.html">Resources</a></li>
-					</ul>
-				  </div>
-				</nav>
+				  </ul>
+				</div>
+			  </div>
+			</nav>
 		</header>
 		
 		<div id="fold-img-wrapper">
 			<div id="fold-img">
 				<div id="map-overlay" onclick="style.pointerEvents='none'"></div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.2433244671392!2d-82.40831268457612!3d41.325321979269916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883a1293f2df0729%3A0x9055c8caf6af9930!2s12311+OH-113%2C+Wakeman%2C+OH+44889!5e0!3m2!1sen!2sus!4v1490129661906" width="960" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.2433244671392!2d-82.40831268457612!3d41.325321979269916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883a1293f2df0729%3A0x9055c8caf6af9930!2s12311+OH-113%2C+Wakeman%2C+OH+44889!5e0!3m2!1sen!2sus!4v1490129661906" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
 		
@@ -112,10 +118,11 @@
 
 		<hr style="width: 90%; border-color:#666;"/>
 
-		<!-- COPYRIGHT -->
-		<div id="copyright">
-			<h5> &copy; 2017 Vector Surveying Services, LLC. - All Rights Reserved. </h5>
-		</div><!-- END COPYRIGHT -->
-	</footer> <!-- END FOOTER -->
+			<!-- COPYRIGHT -->
+			<div id="copyright">
+				<h5> &copy; <span id="year"></span> Vector Surveying Services, LLC. - All Rights Reserved. </h5>
+			</div><!-- END COPYRIGHT -->
+		</footer> <!-- END FOOTER -->
+		<script src="js/getYear.js"></script>
 </body>
 </html>

@@ -12,8 +12,8 @@
 	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 	<!-- SEO META --> 
-	<title> Vector Surveying Services | SEO content here...</title>
-	<meta name="description" content="Some more seo stuff here"/>
+	<title> Vector | The Best Professional Land Surveyors in Northern Ohio </title>
+	<meta name="description" content="Vector Surveying Services LLC. is Northern Ohio's premier professional land surveying firm. Let our team give you a free quote or estimate!"/>
 	
 	<!-- LINKS --> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
@@ -30,7 +30,7 @@
 		  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
 		  crossorigin="anonymous"> -->
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-	<link href="bootstrap/js/bootstrap.min.js"/> 
+	<script src="bootstrap/js/bootstrap.min.js"></script> 
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 	<link href="css/main.css" rel="stylesheet"/>
 </head>
@@ -38,21 +38,28 @@
 <body>
 	<div id="wrapper" class="container-fluid">
 		<header>
-				<nav class="navbar navbar-inverse">
-				  <div class="container-fluid">
-					<div class="navbar-header">
-					  <a class="navbar-brand" href="index.html"><img id="nav-logo" class="img-responsive" src="imgs/vector-surveying-services-navbar-logo.png"/></a>
-					</div>
-					<ul class="nav navbar-nav">
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				  <a class="navbar-brand" href="index.html"><img id="nav-logo" class="img-responsive" src="imgs/vector-surveying-services-navbar-logo.png"/></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">
 					  <li class="active"><a href="index.html">Home</a></li>
 					  <li><a href="surveying-services.html">Services</a></li>
 					  <li><a href="surveying-quotes.html">Request Quote</a></li>
 					  <li><a href="about-vector-surveying.html">About</a></li>
 					  <li><a href="contact-vector-surveying.html">Contact</a></li>
 					  <li><a href="resources.html">Resources</a></li>
-					</ul>
-				  </div>
-				</nav>
+				  </ul>
+				</div>
+			  </div>
+			</nav>
 		</header>
 		<div id="fold-img-wrapper">
 			<div id="fold-img">
@@ -63,12 +70,12 @@
 		
 		<section id="main-content" class="copy">
 			
-			<h2> Know Your Boundaries!</h2>
+			<h1 class="headline"> Professional Land Surveying in Northern Ohio </h1>
 			<p> 
-			Surveyors are the stewards of the nation's property boundaries. Click the button above to request a price estimate for a boundary retracement, lot split, ALTA, consolidation survey, or elevation certificate.
+			Professional Surveyors are the stewards of the nation's property boundaries. Click the button above to request a free price estimate for boundary retracements, lot splits, <abbr title="American Land Title Association">ALTA</abbr> surveys, consolidation surveys, or elevation certificates.
 			</p>
 		
-			<h3 style="text-transform:uppercase;"> Proudly Serving Lorain, Erie, Huron, &amp; Surrounding Counties</h3>
+			<h2> Serving Lorain, Erie, Huron, &amp; Surrounding Counties</h2>
 		</section>
 	</div><!-- END wrapper -->
 		<footer>
@@ -115,8 +122,9 @@
 					
 			<!-- COPYRIGHT -->
 			<div id="copyright">
-				<h5> &copy; 2017 Vector Surveying Services, LLC. - All Rights Reserved. </h5>
+				<h5> &copy; <span id="year"></span> Vector Surveying Services, LLC. - All Rights Reserved. </h5>
 			</div><!-- END COPYRIGHT -->
 		</footer> <!-- END FOOTER -->
+		<script src="js/getYear.js"></script>
 </body>
 </html>
