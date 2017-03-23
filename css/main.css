@@ -69,6 +69,11 @@ h1, h2, h3, h4, h5 {
 	font-size: 30px;
 }
 
+.call-to-act, .call-to-act:hover {
+	color: #00cc00;
+}
+
+
 #request-btn { 
 	position: absolute;
 	padding-top: 17px;
@@ -283,6 +288,11 @@ iframe {
 /* MOBILE */
 @media screen and (max-width:767px){
 	/* SITE-WIDE */
+	button.navbar-toggle {
+		background-color: transparent;
+		border: none;
+	}
+	
 	footer {
 		height: 390px;
 	}
