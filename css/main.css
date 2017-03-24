@@ -30,12 +30,13 @@ h1, h2, h3, h4, h5 {
 }
 
 #nav-logo {
-	margin-top: -15px;
 	transition: opacity .3s;
+	margin-top: -10px;
+	width: 120px;
 }
 
-#nav-logo:hover {
-	opacity: .75;
+object{
+	pointer-events: none;
 }
 
 .navbar li { 
@@ -73,37 +74,10 @@ h1, h2, h3, h4, h5 {
 	color: #00cc00;
 }
 
-
-#request-btn { 
-	position: absolute;
-	padding-top: 17px;
-	bottom: 20px;
-	left: 50px;
-	width: 210px;
-	height: 60px;
-	background-color: #56b64f;
-	color: #fff;
-	font-size: 18px;
-	font-weight: 700px;
-	text-shadow: 0px -1px 1px #000;
-	border-color: #666; 
-	text-transform: uppercase;
-	transition: background .3s;
-}
-
-#request-btn:hover { 
-	background-color: #008800;
-}
-
 .copy { 
 	max-width: 960px;
 	padding: 15px;
 	margin: auto;
-}
-
-#main-content h3 { 
-	padding-top: 100px;
-	text-align: center;
 }
 
 .row {
@@ -147,6 +121,53 @@ footer a:focus {
 #copyright { 
 	text-align: center;
 	padding-bottom: 10px;
+}
+
+/* INDEX */
+#main-content h3 { 
+	padding-top: 100px;
+	text-align: center;
+}
+
+#request-btn { 
+	position: absolute;
+	padding-top: 17px;
+	bottom: 20px;
+	left: 50px;
+	width: 210px;
+	height: 60px;
+	background-color: #56b64f;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700px;
+	text-shadow: 0px -1px 1px #000;
+	border-color: #666; 
+	text-transform: uppercase;
+	transition: background .3s;
+}
+
+#request-btn:hover { 
+	background-color: #008800;
+}
+
+#service-area {
+	margin: auto
+}
+
+#testimonials {
+	text-align: center;
+}
+
+.client {
+	display: block;
+	padding-top: 10px;
+	font-family: 'Calisto MT', serif;
+	font-size: 14px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+	color: #00cc00;
 }
 
 /* SERVICES */
@@ -308,9 +329,45 @@ iframe {
 		border: 3px solid #00cc00;
 	}
 	
+	.carousel-inner {
+		max-width: 300px;
+		min-height: 100px;
+		margin: auto;
+	}
+	
 	/* QUOTE */
 	#quote-content button {
 		display: block;
 		margin: auto;
 	}	
 }
+
+/* ANIMATION */
+  .scroll-anim {visibility:hidden;}
+  .slide-up {
+      animation-name: slide-up;
+      -webkit-animation-name: slide-up;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide-up {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
